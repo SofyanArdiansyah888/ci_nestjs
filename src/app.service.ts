@@ -7,6 +7,6 @@ export class AppService {
   }
 
   getSofyan(): string {
-    return 'hello sofyan';
+    return 'hello sofyan ';
   }
 }
