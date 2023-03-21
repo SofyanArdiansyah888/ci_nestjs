@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('/sofyan')
+  @Get('sofyan')
   hello(): string {
     return this.appService.getSofyan();
   }
